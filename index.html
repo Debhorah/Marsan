@@ -3,59 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Marsan | Publicidade e propaganda </title>
+    <title> Marsan|Publicidade e Propaganda </title>
 
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/favicon.ico" rel="icon"> 
+    
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
-    <!--Estilo CSS-->
-    <link rel=" stylesheet" href="css/style.css">
+    <!-- Validador CSS -->
+    <link rel="stylesheet" href="validador/aos/aos.css">
+    <link rel="stylesheet" href="validador/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="validador/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="validador/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="validador/glightbox/css/glightbox.min.css">
+    <link rel="stylesheet" href="validador/swiper/swiper-bundle.min.css">
 
-     <!-- Validador CSS -->
-     <link rel="stylesheet" href="validador/aos/aos.css">
-     <link rel="stylesheet" href="validador/bootstrap/css/bootstrap.min.css">
-     <link rel="stylesheet" href="validador/bootstrap-icons/bootstrap-icons.css">
-     <link rel="stylesheet" href="validador/boxicons/css/boxicons.min.css">
-     <link rel="stylesheet" href="validador/glightbox/css/glightbox.min.css">
-     <link rel="stylesheet" href="validador/swiper/swiper-bundle.min.css">
-
-    <!--Google Fonts-->
+    <!-- Google Fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="styleshet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
 
 <body> 
-
-    <!--Criar Botao Mobile-->
-    <i class=" bi bi-list mobile-nav toggle d-xl-none"> </i> <!--<i> ícone -->
+    
+    <!-- Criar Botao Menu Mobile -->
+<i class="bi bi-list mobile-nav-toggle d-xl-none"> </i> <!-- <i> ícone -->
 
 
     <header id="header">
-        <div clas="d-flex flex-column">
+        <div class="d-flex flex-column">
             <div class="profile"> <!-- div = Caixa -->
-                <img src="img/Usar Texto Mágico.png" alt="Logo da Empresa" class="img-fluid rounded-circle">
+                <img src="img/Usar Texto Mágico.png" alt="" class="img-fluid rounded-circle">
                 <h1 class="text-light"> 
                     <a href="index.html"> Marsan </a>
-                    </h1>
+                </h1>
+                
+                <div class="social-links mt-3 text-center">
+                    <a href="https://www.instagram.com/" target="_blank"> 
+                         <i class='bx bxl-instagram'></i> </a>
 
-                   <div class="social-links mt-3 text-center">
-                    <a href="https://www.instagram.com/" target="blank"> <i class='bx bxl-instagram'></i> </a>
+                    <a href="https://br.linkedin.com/" target="_blank">
+                        <i class='bx bxl-linkedin'></i> </a>
 
-                    <a href="https://br.linkedin.com/" target="blank"> <i class='bx bxl-linkedin'></i> </a>
+                    <a href="https://web.whatsapp.com/" target="_blank"> 
+                        <i class='bx bxl-whatsapp'></i> </a>
 
-                    <a href="https://web.whatsapp.com/" target="blank"> <i class='bx bxl-whatsapp'></i> </a>
+                    <a href="https://www.tiktok.com/pt-BR/" target="_blank">
+                         <i class='bx bxl-tiktok'></i> </a>
 
-                    <a href="https://www.tiktok.com/pt-BR/" target="blank"> <i class='bx bxl-tiktok'></i> </a>
+                         <a href="https://www.google.com/intl/pt-BR/gmail/about/" target="_blank">
+                            <i class='bx bxl-gmail'></i> </a>
+                </div> <!-- FIM social-links -->
+            </div> <!-- FIM div Profile -->
 
-                    <a href="https://www.google.com/intl/pt-BR/gmail/about/" target="blank"> <i class='bx bxl-gmail'></i> </a>
-
-
-                </div> <!--Fim social-links-->
-             </div> <!--Fim div Profile -->
-
-             <!--Menu lateral em lista-->
-             <nav id="navbar" class="nav-menu navbar">
+            <!-- Menu Lateral em Lista -->
+            <nav id="navbar" class="nav-menu navbar">
                 <ul>
                     <li>
                         <a href="#hero" class="nav-link scrollto active"> 
@@ -88,7 +91,7 @@
                     <li>
                         <a href="#portfolio" class="nav-link scrollto"> 
                             <i class="bx bx-book-content"> </i>
-                            <span>Portfolio</span>
+                            <span>Portfólio</span>
                         </a>
                     </li>
 
@@ -105,658 +108,686 @@
                             <span>Contato</span>
                         </a>
                     </li>
-
+                    
                 </ul>
-             </nav> <!--Fim NAV = MENU -->
+            </nav> <!-- Fim NAV = MENU -->
 
 
 
-        </div> <!--d-flex flex-column-->
-</header>  <!-- Fim da header -->
+        </div> <!-- d-flex flex-column -->
+    </header> <!-- Fim da HEADER -->
 
-<!-- Seção HERO -->
-<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-        <h1> Olá, </h1> <!--h1=título-->
-        <p> somos <span class="typed" data-typed-items="publicidade, propaganda, respeito, inovação, a Marsan"> </span> 
-        </p>
-    </div> <!-- Fim div HERO container --> 
-</section> <!-- Fim Seção HERO -->
-
-
-<main id="main"> 
-
-<!--Sobre-->
-<section id="about" class="about">
-<div class="container"> 
-
-<div class="section-title"> 
-    <h2> Sobre </h2>
-    <p> A 10 anos nossa sócia fundadora estava quase se formando no Ensino Médio, daí surgiu aquele sentimento
-        de: ''E agora, o que eu vou fazer da minha vida?''. Seus gostos variados deixaram ela bem confusa. Foi então,
-        que ela descobriu uma área que está ligada ao desenvolvimento e reconhecimento de muitas outras áreas: Publicidade 
-        e propaganda. Usar a criatividade para transformar ideias de crescimento, em realidade, foi o que a moveu e nos move até hoje. </p>
-
-</div>
-
-<div class="row">
-
-    <div class="col-lg-4" data-aos="fade-right"> 
-        <img src="img/Usar Texto Mágico.png" alt="Logo_1" class="img-fluid" > 
-    </div>
-
-<div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-
-    <h3> Marsan </h3>
-    <p class="fst-italic">
-    <!--<b> Missão:</b>-->Temos como <b>missão</b>, fazer com que todo empreendedor tenha acesso
-    a P&P, com a mesma facilidade que tem acesso a uma folha de papel (daí nossa logo).<br> <br>
-
-    <!--<b> Visão:</b>--> Para seguir realizando nossa missão, <b>visamos</b> expandir nossa companhia a ponto de termos filiais em todos os estados do Brasil, podendo 
-    assim, estar mais próximos de nossos clientes/parceiros e atendê-los da melhor forma possível.<br> <br>
-
-    <!--<b> </b>--> Acreditamos que o mundo é um lugar melhor (dentro e fora do trabalho) quando o que temos de mais <b>valor</b> são: <br> 
-    </p>
-
-<div class="row">
-<div class="col-lg-6">
-    <ul>
-        <li> 
-            <i class="bi bi-chevron-right"> </i> 
-           <b> A empatia</b> <!--( querer tão bem ao nosso próximo ao ponto de considerá-lo como nós mesmos.
-           Pensar bem antes de tomar qualquer decisão, qual o peso dela em outros além de nós.)-->
-        </li> 
-
-        <li> 
-            <i class="bi bi-chevron-right"> </i> 
-           <b> A sustentabilidade</b> <!--(HSJSJSJ )-->
-        </li> 
-
-        <li> 
-            <i class="bi bi-chevron-right"> </i> 
-           <b> E a dedicação</b> <!--HSJSJSJ -->
-        </li> 
-
-        <!--<li> 
-            <i class="bi bi-chevron-right"> </i> 
-           <b> LALALA:</b> HSJSJSJ 
-        </li> -->
-    </ul>
-</div> <!-- Col 6.1 -->
-
-</div> <!-- Row -->
-</div> <!-- Content -->
-
-</div> <!-- Fim row -->
-</div> <!-- Fim container -->
-</div> <!-- Fim sobre -->
-
-<!--Seção feitos-->
-<section id="facts" class="facts">
-<div class="container"> 
-    <div class="section-title"> 
-    <h2> Feitos </h2>
-    <p> Com nossos clientes e colaboradores somos muito mais</p> 
-    </div>
+    <!-- Seção HERO -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="hero-container" data-aos="fade-in">
+            <h1> Olá, </h1> <!-- H1 = Titulo -->
+            <p> somos <span class="typed" 
+                data-typed-items="publicidade, propaganda, respeito, inovação, a Marsan"> </span>
+            </p>
+        </div> <!-- FIM DIV HERO Container -->
+    </section>  <!-- FIM Seção HERO -->
 
 
-<div class="row no-gutters">             
+    <main id="main"> 
 
-    <div class="col-lg-3 col-md-6 d-md-flex aling-items-md-stretch" data-aos="fade-up">
+    <!-- SOBRE -->
+    <section id="about" class="about">
+        <div class="container">
 
-        <div class="count-box">
-            <i class="bi bi-emoji-smile"> </i>
-            <span data-purecounter-start="0"
-            data-purecounter-end="10000"
-            data-purecounter-duration="1"
-            class="purecounter">  </span>
-            
-            <p> <strong>Clientes Satisfeitos:</strong> </p>
-        </div>
-
-    </div>
-
-    <div class="col-lg-3 col-md-6 d-md-flex aling-items-md-stretch" data-aos="fade-up">
-
-        <div class="count-box">
-            <i class=" bi bi-kanban"></i>
-            <span data-purecounter-start="0"
-            data-purecounter-end="50000"
-            data-purecounter-duration="1"
-            class="purecounter"></span>
-
-            <p> <strong> Projetos </strong></p>
+            <div class="section-title">
+                <h2>Sobre</h2>
+                <p> A 10 anos nossa sócia fundadora estava quase se 
+                    formando no Ensino Médio, daí surgiu aquele 
+                    sentimento
+                    de: ''E agora, o que eu vou fazer da minha vida?''.
+                     Seus gostos variados deixaram ela bem confusa. 
+                     Foi então,
+                    que ela descobriu uma área que está ligada ao 
+                    desenvolvimento e reconhecimento de muitas outras 
+                    áreas: Publicidade 
+                    e propaganda. Usar a criatividade para transformar 
+                    ideias de crescimento, em realidade, foi o que a 
+                    moveu e nos move até hoje. </p>
             </div>
- 
-            <div class="col-lg-3 col-md-6 d-md-flex aling-items-md-stretch" data-aos="fade-up">
 
-                <!--<div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="row">
 
-                    <div class="count-box">
-                         <i class="bi bi-clock-history"></i>
-                         <span data-purecounter-start="0"
-                         data-purecounter-end="2607"
-                         data-purecounter-duration="1"
-                         class="purecounter"></span>
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img src="img/Usar Texto Mágico.png" alt="Logo" class="img-fluid" width="400 px" height="400 px" >
+                </div>
 
-                         <p> <strong> Horas de trabalho </strong> </p>
-                         </div>
+                <div class="col-lg-8 pt-4 pt-lg-0 content"
+                    data-aos="fade-left">
+                    
+                    <!--<h3>Marsan</h3>-->
+                    <p class="fst-italic">
+                        <!--<b> Missão:</b>-->Temos como <b>missão</b>, fazer com que todo empreendedor tenha acesso
+                        a P&P, com a mesma facilidade que tem acesso a uma folha de papel (daí nossa logo).<br> <br>
+                    
+                        <!--<b> Visão:</b>--> Para seguir realizando nossa missão, <b>visamos</b> expandir nossa companhia a ponto de termos filiais em todos os estados do Brasil, podendo 
+                        assim, estar mais próximos de nossos clientes/parceiros e atendê-los da melhor forma possível.<br> <br>
+                    
+                        <!--<b> </b>--> Acreditamos que o mundo é um lugar melhor (dentro e fora do trabalho) quando o que temos de mais <b>valor</b> são: <br> 
+                        </p>
+                
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul>
+                                <li>
+                                    <i class="bi bi-chevron-right"> </i>
+                                    <b> a empatia</b> <!--06/07/2024-->
+                                </li>
 
-                         </div>-->
-                         
-                         <div class="count-box">
-                            <i class=" bi bi-people-fill"></i>
-                            <span data-purecounter-start="0"
-                             data-purecounter-end="300"
-                             data-purecounter-duration="1"
-                            class="purecounter"></span>
+                                <li>
+                                    <i class="bi bi-chevron-right"> </i>
+                                    <b>a sustentabilidade</b> <!--06/07/2024--> 
+                                </li>
 
-                            <p> <strong> Colaboradores </strong> </p>
-                         </div>
+                                <li>
+                                    <i class="bi bi-chevron-right"> </i>
+                                    <b>e a dedicação</b> <!--06/07/2024-->  
+                                </li>
 
-                        </div>
+                                <!--06/07/2024-->
+                            </ul>
+                        </div> <!-- COL 6.1 -->
 
-                    </div> <!-- No Gutters -->
+                    </div>  <!-- ROW -->
+                </div> <!-- content -->
 
-                    </div> <!-- Fim Container-->
-                </section> <!--Fim feitos -->
+            </div> <!-- FIm ROW -->
+        </div>  <!-- FIm Container -->
+    </section> <!-- FIm SOBRE -->
 
-                <!--Seção habilidade-->
- 
-<section id="skills" class="skills section-bg">
-    <div class="container">
+    <!-- Seção Feitos -->
+    <section id="facts" class="facts">
+        <div class="container">
+            
+            <div class="section-title">
+                <h2>Feitos</h2>
+                <p> Com nossos clientes e colaboradores somos muito mais </p>
+            </div>
 
-        <div class="section-title">
-            <h2> Alvos </h2>
-            <p> O que vamos alcançar e já alcançamos </p>
+    <div class="row no-gutters">             
+
+        <div class="col-lg-3 col-md-6 d-md-flex aling-items-md-stretch" data-aos="fade-up">
+
+            <div class="count-box">
+                <i class="bi bi-emoji-smile"> </i>
+                <span data-purecounter-start="0"
+                data-purecounter-end="10000"
+                data-purecounter-duration="1"
+                class="purecounter">  </span>
+                
+                <p> <strong>Clientes Satisfeitos:</strong></p>
+            </div>
+
         </div>
 
-        <article class="row skills-content">
+        <div class="col-lg-3 col-md-6 d-md-flex aling-items-md-stretch" data-aos="fade-up">
 
-            <div class="col-lg-6" data-aos="fade-up">
+            <div class="count-box">
+                <i class="bi bi-kanban"></i>
+                <span data-purecounter-start="0"
+                data-purecounter-end="50000"
+                data-purecounter-duration="1"
+                class="purecounter">  </span>
+                
+                <p> <strong>Projetos</strong></p>
+            </div>
 
-                <div class="progress">
-                    <span class="skill"> Contratar 100 colaboradores <i class="val"> 100% </i> </span>
+        </div>
 
-                    <div class="progress-bar-wrap">
+        <div class="col-lg-3 col-md-6 d-md-flex aling-items-md-stretch" data-aos="fade-up">
 
-                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <!---->  <div class="count-box">
+                <i class="bi bi-people-fill"></i>
+                <span data-purecounter-start="0"
+                data-purecounter-end="300"
+                data-purecounter-duration="1"
+                class="purecounter">  </span>
+                
+                <p> <strong>Colaboradores</strong> </p>
+            </div> 
+
+        </div>
+
+      <!--  <div class="col-lg-3 col-md-6 d-md-flex aling-items-md-stretch" data-aos="fade-up">
+
+            <div class="count-box">
+                <i class="bi bi-people-fill"></i>
+                <span data-purecounter-start="0"
+                data-purecounter-end="175"
+                data-purecounter-duration="1"
+                class="purecounter">  </span>
+                
+                <p> <strong>Tarefas em Equipe</strong> </p>
+            </div> 
+
+        </div> -->
+
+    </div> <!-- NO GUTTERS -->
+
+        </div> <!-- FIm Container -->
+    </section> <!-- FIM Feitos -->
+
+    <!-- Seçao Habilidade -->
+    <section id="skills" class="skills section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2> Alvos </h2>
+                <p> O que vamos alcançar e já alcançamos  </p>
+            </div>
+
+            <article class="row skills-content">
+                
+                <div class="col-lg-6" data-aos="fade-up">
+                    
+                    <div class="progress">
+                        <span class="skill"> Contratar 100 colaboradores <i class="val"> 100% </i> </span>
+
+                        <div class="progress-bar-wrap">
+
+                            <div class="progress-bar" role="progressbar" 
+                            aria-valuenow="100" aria-valuemin="0"
+                            aria-valuemax="100">
+                            </div>
+
                         </div>
-                        
                     </div>
+
+                    <div class="progress">
+                        <span class="skill"> Expandir nosso escritório para 5 estados <i class="val"> 60% </i> </span>
+    
+                        <div class="progress-bar-wrap">
+    
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill"> Ganhar nosso primeiro prêmio nacional de publi do ano <i class="val"> 100% </i> </span>
+    
+                        <div class="progress-bar-wrap">
+    
+                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill"> Contratar 500 colaboradores <i class="val"> 75% </i> </span>
+    
+                        <div class="progress-bar-wrap">
+    
+                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill"> Finalizar 100k projetos <i class="val"> 50% </i> </span>
+    
+                        <div class="progress-bar-wrap">
+    
+                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                
+<!-- ****************************************************************    -->
+
+                <div class="col-lg-6" data-aos="fade-up">
+                    
+                    
+
                 </div>
 
 
+            </article> <!--  skills-content -->
 
-                </div>
+        </div> <!-- FIm Container -->
+    </section> 
+    <!-- FIM Habilidade -->
 
-                <article class="row skills-content">
+    <section id="resume" class="resume">
+        <div class="container">
 
-                    <div class="col-lg-6" data-aos="fade-up">
-        
-                        <div class="progress">
-                            <span class="skill"> Expandir nosso escritório para 5 estados <i class="val"> 60% </i> </span>
-        
-                            <div class="progress-bar-wrap">
-        
-                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                                
-                            </div>
-                        </div>
-        
-        
-        
-                    </div>
-
-                    <article class="row skills-content">
-
-                        <div class="col-lg-6" data-aos="fade-up">
-            
-                            <div class="progress">
-                                <span class="skill"> Ganhar nosso primeiro prêmio nacional de publi do ano <i class="val"> 100% </i> </span>
-            
-                                <div class="progress-bar-wrap">
-            
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                    </div>
-                                    
-                                </div>
-                            </div>
-            
-            
-            
-                        </div>
-
-                        <article class="row skills-content">
-
-                            <div class="col-lg-6" data-aos="fade-up">
-                
-                                <div class="progress">
-                                    <span class="skill"> Contratar 500 colaboradores <i class="val"> 75% </i> </span>
-                
-                                    <div class="progress-bar-wrap">
-                
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                
-                
-                
-                            </div>
-
-                            <article class="row skills-content">
-
-                                <div class="col-lg-6" data-aos="fade-up">
-                    
-                                    <div class="progress">
-                                        <span class="skill"> Finalizar 100k projetos <i class="val"> 50% </i> </span>
-                    
-                                        <div class="progress-bar-wrap">
-                    
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                    
-                    
-                    
-                                </div>
-
-
-
-            <div class="col-lg-6" data-aos="fade-up">
-
-                 
-
+            <div class="section-title">
+                <h2> Resumo </h2>
+                <p> Lorem ipsum dolor, sit amet consectetur </p>
             </div>
 
-        </article> <!-- skills-content -->
-    </div> <!-- Fim Container -->
-</section> 
-<!-- Fim habilidade -->
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-up">
+                <h3 class="resume-title"> Inicio da Jornada </h3>
 
-<section id="resume" class="resume">
-    <div class="container">
-
-        <div class="section-title">
-            <h2> Resumo </h2>
-            <p> bskhugaudfrhaierhfahfrauihe\fhwsidlhfncl\adhero </p>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-6" data-aos="fade-up">
-                <h3 class=" resume-title "> Início da jornada </h3>
-
-                <div class=" resume-item pb-0"> 
-                    <h4> Meu sonho </h4>
-                    <p>
-                        <em> ieuruyh7trgfayugefriyuageriuahy </em>
-                        <!-- Tag "<em> para texto em itálico "-->
-                    </p>
+                    <div class="resume-item pb-0">
+                        <h4>  Nascimento da empresa </h4>
+                        <p>
+                            <em> Lorem ipsum dolor </em>
+                            <!-- TAG "<em>" para texto em Italico  --> 
+                        </p>
                     <ul>
-                        <li> Criei a empresa em... </li>
-                        <li> </li>
-                        <li> </li>
+                        <li> Registro em cartório - 05/02/2014</li>
+                        <li> Contratação da primeira funcionária - 03/08/2015</li>
+                        <li> Atingimos o marco de 1.000 clientes satisfeitos</li>
                     </ul>
-                </div>
-                <h3 class="resume-title"> Marcos importantes </h3>
-
-                <div class="resume-item">
-                    <h4> 2021 </h4>
-                    <h5> Compra do terreno </h5>
-                    <p> dfhfgfkvbafhgafuk\ </p>
-                    <p> <em> loremdhdhhdhddhd </em> </p>
                     </div>
-                    <div class=" resume-item " >
-                        <h4> Março/2024 </h4>
-                        <p> loremfjjdjjd </p>
+
+                    <h3 class="resume-title"> Marcos importantes </h3>
+
+                    <div class="resume-item">
+                        <h4> 2021 </h4>
+                        <h5> Compra do Terreno </h5>
+                        <p> Construção da sede (SP) </p>
+                        <p> <em>Prêmio nacional Publi do ano </em> </p>
+                    </div>
+                    <div class="resume-item">
+                        <h4> Março / 2024 </h4>
+                        <p> Lorem ipsum, </p>
                         <ul>
-                            <li> Aula 01 </li>
-                            <li> Aula 02 </li>
+                            <li> Abertura da primera filial (CE) </li>
+                            <li> Contratação do 300° colaborador </li>
                         </ul>
                     </div>
-                    </div>
-                    
+                </div>
                 
+                
+                <div class="col-lg-6" data-aos="fade-up" 
+                data-aos-delay="100">
 
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="resume-title"> Referências </h3>
-                        <div class="resume-item">
-                            <h4> Nome marca </h4>
-                            <h5> Bebidas </h5>
-                            <p> fjusdgfahkgfdkjgisdgbcjh </p>
-                            <ul>
-                                <li> tópico 1 </li> 
-                                <li> tópico 2 </li> 
-                            </ul>
+            <h3 class="resume-title"> Referências </h3>
+                <div class="resume-item">
+                    <h4> Alcançamos 50k projetos finalizados com sucesso </h4>
+                    <h5> Fechamos o ano com um total de 10k clientes satisfeitos </h5>
+                    <p> Ganhamos o segundo prêmio nacional de Publi do ano</p>
+                    <ul>
+                        <li> Começamos a construção da terceira filial (RS) </li>
+                        <li> Topico 2 </li>
+                    </ul>
 
+                </div>
+
+                </div>   
+
+            </div> <!--FIM ROW -->
+         
+        </div>
+    </section> <!-- FIM Resumo --> 
+
+    <section id="portfolio" class="portfolio section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2> Portfolio </h2>
+                <p> Conheça os meus Serviços</p>
+            </div>
+
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-filters">
+        <li data-filter="*" class="filter-active"> Todos </li>
+        
+        <li data-filter=".filter-app">
+            Romance </li>
+
+        <li data-filter=".filter-bd"> 
+            Drama </li>
+                        
+        <li data-filter=".filter-web">
+             Literatura </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row portfolio-container" 
+            data-aos="fade-up" data-aos-delay="100">
+
+                <!-- FOTO 1 -->
+            
+                
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="img/portfolio/portfolio-1.jpg" class="img-fluid">
+    
+                        <div class="portfolio-links">
+                            
+                            <a href="img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <i class="bx bx-plus"> </i>
+                            </a>
+                            
+                            <a href="detalhes.html" target="_blank">
+                                <i class="bx bx-link"></i>
+                            </a> 
+    
                         </div>
-
                     </div>
+                </div> <!-- FOTO 1 -->
 
-            </div> <!--Fim row -->
-        </div>
-</section> <!--Fim resumo-->
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+                        <img src="img/portfolio/portfolio-3.jpg" class="img-fluid">
+    
+                        <div class="portfolio-links">
+                            
+                            <a href="img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <i class="bx bx-plus"> </i>
+                            </a>
+                            
+                            <a href="detalhes.html" target="_blank">
+                                <i class="bx bx-link"></i>
+                            </a> 
+    
+                        </div>
+                    </div>
+                </div> <!-- FOTO 2 -->
 
-<section id="portfolio" class="portfolio section-bg">
-    <div class="container">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-bd">
+                    <div class="portfolio-wrap">
+                        <img src="img/portfolio/portfolio-2.jpg" class="img-fluid">
+    
+                        <div class="portfolio-links">
+                            
+                            <a href="img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <i class="bx bx-plus"> </i>
+                            </a>
+                            
+                            <a href="detalhes.html" target="_blank">
+                                <i class="bx bx-link"></i>
+                            </a> 
+    
+                        </div>
+                    </div>
+                </div> <!-- FOTO 3 -->
 
-        <div class=" section-title">
-            <h2> Portifólio </h2>
-            <p> Conheça alguns de nossos trabalhos entregues </p>
-        </div>
 
-        <div clas="row" data-aos="fade-up">
-           <div class="col-lg-12 d-flex justify-content-center">
-           <ul id="portfolio-filters">
-            <li data-filter="*" class="filter-active"> Todos </li>
-            <li data-filter=".filter-ali"> Alimentos </li>
+           </div> <!-- portfolio Container -->
 
-            <li data-filter=".filter-ves"> Vestuário </li>
+        </div> <!-- Container -->
+    </section>
 
-            <li data-filter=".filter-out"> Outros </li>
 
-           </ul>
-        </div>
+
+    <section id="services" class="services">
+        <div class="container">
+
+            <div class="section-title">
+                <h2> Atendimentos </h2>
+                <p> Especializados conforme sua demanda
+                </p>
+            </div>
+
+            <div class="row">
+
+<div class="col-lg-4 col-md-6 icon-box" 
+    data-aos="fade-up">
+
+    <div class="icon">
+        <i class="bi bi-people"></i>  
     </div>
-
-<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-    <!--Foto 1-->
-    <div class="col-lg-4 col-md-6 portfolio-item filter-ali">
-        <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-1.jpg" class="img-fluid">
-
-            <div class="portfolio-links">
-
-                <a href="img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"> 
-                    <i class=" bx bx-plus"> </i>
-                </a>
-
-                <a href="detalhes.html" target="_blank">
-                    <i class=" bx bx-link"> </i>
-                </a>
-            
-            </div>
-        </div>
-    </div> <!-- Foto 1 -->
-
-
-    <!--Foto 2-->
-    <div class="col-lg-4 col-md-6 portfolio-item filter-ves">
-        <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-2.jpg" class="img-fluid">
-
-            <div class="portfolio-links">
-
-                <a href="img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"> 
-                    <i class=" bx bx-plus"> </i>
-                </a>
-
-                <a href="detalhes.html" target="_blank">
-                    <i class=" bx bx-link"> </i>
-                </a>
-            
-            </div>
-        </div>
-    </div> <!-- Foto 2 -->
-
-
-    <!--Foto 3-->
-    <div class="col-lg-4 col-md-6 portfolio-item filter-out">
-        <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-3.jpg" class="img-fluid">
-
-            <div class="portfolio-links">
-
-                <a href="img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"> 
-                    <i class=" bx bx-plus"> </i>
-                </a>
-
-                <a href="detalhes.html" target="_blank">
-                    <i class=" bx bx-link"> </i>
-                </a>
-            
-            </div>
-        </div>
-    </div> <!-- Foto 3 -->
-
-    <!--Foto 4-->
-    <div class="col-lg-4 col-md-6 portfolio-item filter-ves">
-        <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-4.jpg" class="img-fluid">
-
-            <div class="portfolio-links">
-
-                <a href="img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"> 
-                    <i class=" bx bx-plus"> </i>
-                </a>
-
-                <a href="detalhes.html" target="_blank">
-                    <i class=" bx bx-link"> </i>
-                </a>
-            
-            </div>
-        </div>
-    </div> <!-- Foto 4 -->
-
-
-    <!--Foto 5-->
-    <div class="col-lg-4 col-md-6 portfolio-item filter-out">
-        <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-5.jpg" class="img-fluid">
-
-            <div class="portfolio-links">
-
-                <a href="img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"> 
-                    <i class=" bx bx-plus"> </i>
-                </a>
-
-                <a href="detalhes.html" target="_blank">
-                    <i class=" bx bx-link"> </i>
-                </a>
-            
-            </div>
-        </div>
-    </div> <!-- Foto 5 -->
-
-
-    <!--Foto 6-->
-    <div class="col-lg-4 col-md-6 portfolio-item filter-ali">
-        <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-6.jpg" class="img-fluid">
-
-            <div class="portfolio-links">
-
-                <a href="img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"> 
-                    <i class=" bx bx-plus"> </i>
-                </a>
-
-                <a href="detalhes.html" target="_blank">
-                    <i class=" bx bx-link"> </i>
-                </a>
-            
-            </div>
-        </div>
-    </div> <!-- Foto 6 -->
-
-    <!--Foto 7-->
-    <div class="col-lg-4 col-md-6 portfolio-item filter-out">
-        <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-7.jpg" class="img-fluid">
-
-            <div class="portfolio-links">
-
-                <a href="img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"> 
-                    <i class=" bx bx-plus"> </i>
-                </a>
-
-                <a href="detalhes.html" target="_blank">
-                    <i class=" bx bx-link"> </i>
-                </a>
-            
-            </div>
-        </div>
-    </div> <!-- Foto 7 -->
-
-
-    <!--Foto 8-->
-    <div class="col-lg-4 col-md-6 portfolio-item filter-ves">
-        <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-2.jpg" class="img-fluid">
-
-            <div class="portfolio-links">
-
-                <a href="img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"> 
-                    <i class=" bx bx-plus"> </i>
-                </a>
-
-                <a href="detalhes.html" target="_blank">
-                    <i class=" bx bx-link"> </i>
-                </a>
-            
-            </div>
-        </div>
-    </div> <!-- Foto 8 -->
-
-
-    <!--Foto 9-->
-    <div class="col-lg-4 col-md-6 portfolio-item filter-ali">
-        <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-3.jpg" class="img-fluid">
-
-            <div class="portfolio-links">
-
-                <a href="img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"> 
-                    <i class=" bx bx-plus"> </i>
-                </a>
-
-                <a href="detalhes.html" target="_blank">
-                    <i class=" bx bx-link"> </i>
-                </a>
-            
-            </div>
-        </div>
-    </div> <!-- Foto 9 -->
-
-
-
-
-
-</div> <!-- Portifólio container -->
-
-</div> <!-- Container -->
-</section>
-
-
-
-<section id="services" class="services">
-    <div class="container">
-
-        <div class="section-title">
-            <h2> Atendimentos </h2>
-            <p> Lorem ipsum dolor sit amet  consectetur, adipisicing elit.
-            </p>
-        </div>
-
-        <div class="row">
-
-<div class="col-lg-4 col-md-6 icon-box" 
-data-aos="fade-up">
-
-<div class="icon">
-    <i class="bi bi-braces"></i>  
-</div>
-    <h4 class="title"> 
-        <a href="#"> Pequenas empresas </a>  
-    </h4>
-    <!--<p class="descripton"> Resumo sobre o 
-        Dev Front-End 
-    </p> -->
+        <h4 class="title"> 
+            <a href="#"> Pequenas empresas </a>  
+       <!-- </h4>
+        <p class="descripton"> Resumo sobre o 
+            Dev Front-End 
+        </p> -->
 </div>
 
 <div class="col-lg-4 col-md-6 icon-box" 
-data-aos="fade-up">
+    data-aos="fade-up">
 
-<div class="icon">
-    <i class="bi bi-brush"></i> 
-</div>
-    <h4 class="title"> 
-        <a href="#"> Médio empresas </a>  
-    </h4>
-    <!--<p class="descripton"> Resumo sobre o 
-        Designer 
-    </p> -->
-</div>
-
-<div class="col-lg-4 col-md-6 icon-box" 
-data-aos="fade-up">
-
-<div class="icon">
-    <i class="bi bi-image-alt"></i>
-</div>
-    <h4 class="title"> 
-        <a href="#"> Grandes empresas </a>  
-    </h4>
-    <!--<p class="descripton"> Resumo sobre os
-        meus projetos 
-    </p> -->
-</div>
-</div>
+    <div class="icon">
+        <i class="bi bi-houses"></i> 
     </div>
-</section>
+        <h4 class="title"> 
+            <a href="#"> Média empresas </a>  
+      <!--  </h4>
+        <p class="descripton"> Resumo sobre o 
+            Designer 
+        </p> -->
+</div>
 
+<div class="col-lg-4 col-md-6 icon-box" 
+    data-aos="fade-up">
 
+    <div class="icon">
+        <i class="bi bi-buildings"></i>
+    </div>
+        <h4 class="title"> 
+            <a href="#"> Grandes empresas </a>  
+      <!--  </h4>
+        <p class="descripton"> Resumo sobre o 
+            meus projetos 
+        </p> -->
+</div>
+  </div>
+        </div>
+    </section> 
 
-<section id="testimonials" 
-    class="testimonials section-bg">
+    <section id="testimonials" class="testimonials section-bg">
         <div class="container">
 
             <div class="section-title">
                 <h2> Depoimentos </h2>
-                <p> Feedbacks dos nossos clientes. </p>
+                <p> Feedback dos nossos clientes </p>
             </div>
 
             <div class="testimonials-slider swiper" 
             data-aos="fade-up" data-aos-delay="100">
 
-                <div class="swiper-wrapper">
+    <div class="swiper-wrapper">
 
+        <div class="swiper-slide">
+<article class="testimonial-item" data-aos="fade-up">
+    <p>
+        <i class="bx bxs-quote-alt-left  quote-icon-left"> </i>
+            Muito bom 👍
+        <i class="bx bxs-quote-alt-right quote-icon-right"></i>    
+    </p>
+        <img src="img/depoimentos/testimonials-1.jpg" alt=""             class="testimonial-img">
+        <h3> Saul Silva Mecânico  </h3>
+        <h4> Média empresa </h4>
+</article>
+        </div>
+
+                <div class="swiper-slide">
+
+                    <article class="testimonial-item" data-aos="fade-up">
+                        <p>
+                            <i class="bx bxs-quote-alt-left      quote-icon-left"> </i>
+                                Sou MEI e graças a um trabalho com a Marsan consegui atrair
+                                vários clientes. Obrigada por dar atenção pra nós que estamos começando.
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>    
+                        </p>
+                            <img src="img/Logo Minimalista Cinza Loja.png" alt="" class="testimonial-img">
+                            <h3> Beauty Pratas 925 </h3>
+                            <h4> Pequena Empresa </h4>
+                    </article>
                 </div>
+
+                <div class="swiper-slide">
+
+                    <article class="testimonial-item" data-aos="fade-up">
+                        <p>
+                            <i class="bx bxs-quote-alt-left      quote-icon-left"> </i>
+                                Nossa empresa nasceu na mesma época que
+                                a Marsan e somos parceiros até hoje, isso, graças ao
+                                trabalho excelente e relação cuidadosa que a equipe tem 
+                                desde o prícipio até agora.
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>    
+                        </p>
+                            <img src="img/Logo elegante marrom e branca para Arquitetos.png" alt="" class="testimonial-img">
+                            <h3> Servilla </h3>
+                            <h4> Grande Empresa </h4>
+                    </article>
+                </div>
+
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
 
             </div>
 
 
+                  
+
+
+
         </div>
-    </section>
+    </section> 
+
+    <section id="contact" class="contact">
+        <div class="container">
+
+            <div class="section-title">
+                <h2> Contato </h2>
+                <p> Entre em Contato, fale com um especialista da nossa Equipe </p>
+            </div>
+
+            <div class="row" data-aos="fade-in">
+
+                <div class="col-lg-5 d-flex align-items-stretch">
+
+                    <article class="info">
 
 
+                        <div class="address">
+                            <i class="bi bi-geo-alt"></i>
+                            <h4>Endereço: </h4>
+                            <p> R: Jaguaré Mirim, 71 - Vila Leopoldina. 
+                            <br> CEP: 05311-020 </p>
+                        </div>
+
+                        <div class="email">
+                            <i class="bi bi-envelope"></i>
+                            <h4>E-mail: </h4>
+                            <p> teste@teste.com </p>
+                        </div>
+
+                        <div class="phone">
+                            <i class="bi bi-whatsapp"></i>
+                            <h4>Whats: </h4>
+                            <p> (11) 9 8765 - 4321 </p>
+                        </div>
+                  
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58530.56459637248!2d-46.80800967832034!3d-23.52673669999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8b811e8e3a1%3A0xa7564bb4c78f41b3!2sSenai%20Vila%20Leopoldina%20-%20Mariano%20Ferraz!5e0!3m2!1spt-BR!2sbr!4v1710250852489!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </article>
+
+                </div>
+
+                <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+
+                    <form action="#" class="php-email-form">
+
+                        <div class="row">
+            
+                            <article class="form-group col-md-6">
+            
+                <label for="name"> Nome: *</label>
+            
+                <input type="text" placeholder="Nome Completo" required
+                class="form-control">
+             
+                            </article>
+            
+                            <article class="form-group col-md-6">
+                                <label for="email"> E-mail </label>
+            
+                                <input type="email" class="form-control" required>
+            
+                            </article>
+            
+                            <article class="form-group col-md-6">
+                                <label for="phone"> Telefone </label>
+            
+                                <input type="tel" class="form-control" required>
+            
+                            </article>
+                        </div> <!-- FIM ROW --> 
+            
+                        <article class="form-group">
+            
+                            <label for="subject"> Assunto </label>
+            
+                            <input type="text" class="form-control" required>
+            
+                        </article>
+            
+                        <article class="form-group">
+                            <label for="message"> Digite sua Mensagem: </label>
+                            
+                            <textarea class="form-control" 
+                            cols="30" rows="10">  </textarea>
+                        </article>
+            
+                        <div class="text-center"> 
+                            <button type="submit"> Enviar </button>
+                        </div>
+                    </form>
+            
+                            </div>
+                        </div> <!-- FIM ROW -->
+                    </div>
+                </section>
+            
+                </main>
+            
+
+    <!-- RODA PÉ -->
+    <footer id="footer">
+        <div class="container">
+
+        <div class="copyright">
+            &COPY; Todos os Direitos Reservados
+            <strong> 
+                <span> Marsan Publicidade e Propaganda </span>
+            </strong>
+        </div>
+        <div class="credits">
+            Desenvolvido por 
+            <a href="MEU-LINK" target="_blank">
+                Déborah Barros
+            </a>
+        </div>
+
+        </div>
+    </footer>
 
 
-</main>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"> 
+        <i class="bi bi-arrow-up-short"> </i>
+    </a>
+    
+    <!-- Validadores JS -->
+    <script src="validador/purecounter/purecounter_vanilla.js"></script>
+    <script src="validador/aos/aos.js"></script>
+    <script src="validador/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="validador/glightbox/js/glightbox.min.js"></script>
+    <script src="validador/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="validador/swiper/swiper-bundle.min.js"></script>
+    <script src="validador/typed.js/typed.umd.js"></script>
+    <script src="validador/waypoints/noframework.waypoints.js"></script>
+    <script src="validador/php-email-form/validate.js"></script>
 
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center">
-    <i class="bi bi-arrow-up-short"> </i> 
-</a>
+    <!-- Script JavaScript -->
+    <script src="js/main.js"></script>
 
-<!--Validadores JS -->
-<script src="validador/purecounter/purecounter_vanilla.js"></script> 
-<script src="validador/aos/aos.js"></script> 
-<script src="validador/bootstrap/js/bootstrap.bundle.min.js"></script> 
-<script src="validador/glightbox/js/glightbox.min.js"></script> 
-<script src="validador/isotope-layout/isotope.pkgd.min.js"></script> 
-<script src="validador/swiper/swiper-bundle.min.js"></script> 
-<script src="validador/typed.js/typed.umd.js"></script> 
-<script src="validador/waypoints/noframework.waypoints.js"></script> 
-<script src="validador/php-email-form/validate.js"></script> 
-
-<!-- Script JavaScript -->
-<script src="js/main.js"> </script>
-
+    
 </body>
 </html>
-
